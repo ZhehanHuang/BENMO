@@ -1,0 +1,123 @@
+name,value,unit,name_all,gp
+p,1,g wet W cm-3,Biovolume density of cultured animals,all
+u_cj,48.8,J mgC-1,Ratio of carbon to energy content,all
+s_r,0.001,d - 1,Natural mortality of shellfish/seaweed,all
+s_h,0,d - 1,Harvest mortality of shellfish/seaweed,all
+k_r_s,0.8,na,Fraction of reproduction energy fixed in eggs,shellfish
+u_v_s,2700,J g - 1 wet W,Structure energy content,shellfish
+q_s,0.183,mgN mgC-1,N-quota of shellfish,shellfish
+e_g_s,2500,J cm-3,Volume-specific costs for shellfish growth,shellfish
+k_s,0.7,na,Catabolic flux to growth and maintenance in shellfish,shellfish
+p_a_1_s,440,J cm-3 d - 1,maximum surface area-specific assimilation rate,shellfish
+e_m_s,2600,J cm-3,maximum storage density,shellfish
+p_m_1_s,12.2,J cm-3 d - 1,Volume-specific maintenance costs,shellfish
+k_o_s,1,na,Reference reaction rate for shellfish at 288 K,shellfish
+t_a_s,5530,K,Arrhenius temperature of shellfish,shellfish
+t_al_s,15000,K,Arrhenius temperature at lower boundary for shellfish,shellfish
+t_l_s,285,K,Lower boundary of tolerance range for shellfish,shellfish
+t_ah_s,42000,K,Arrhenius temperature at upper boundary for shellfish,shellfish
+t_h_s,297,K,Upper boundary of tolerance range for shellfish,shellfish
+f_h,315,mg C m3 -1,Half-saturation uptake of phytoplankton by shellfish,shellfish
+f_s_h,315,mgC m -3,Half-saturation uptake of food by shellfish,shellfish
+v_p_s,0.36,cm-3,Structural volume at sexual maturity,shellfish
+f_s,0.5,na,Functional response of cultured animals,shellfish
+u_m_s,0.045,m3 cm-2 d - 1,shellfish maximum surface area-specific clearance,shellfish
+u_vs,2700,J g-1 wet W,Structure energy content of shellfish,shellfish
+t_o_s,288,K,Reference temperature,shellfish
+p_a_1_f,2250,J cm-3 d - 1,fish maximum surface area-specific assimilation,fish
+e_g_f,6200,J cm-3,Volume-specific costs for fish growth,fish
+k_f,0.85,na,Catabolic flux to growth and maintenance in fish,fish
+e_m_f,11600,J cm-3,Maximum reserve density of fish,fish
+p_m_1_f,75.3,J cm-3 d - 1,Volume-specific maintenance rate of fish,fish
+v_p_f,9,cm-3,fish structural volume at puberty,fish
+t_af,7100,K,Arrhenius temperature of fish,fish
+t_alf,3200,K,Arrhenius temperature at lower boundary for fish,fish
+t_lf,283,K,Lower boundary of tolerance range for fish,fish
+t_ahf,32000,K,Arrhenius temperature at upper boundary for fish,fish
+t_hf,296,K,Upper boundary of tolerance range for fish,fish
+t_of,283,K,Reference temperature,fish
+f_f,0.8,na,Functional response of cultured animals,fish
+f_f_h,5,g,Half-saturation uptake of food by fish,fish
+f_r,0,,minimum volume-specific consumption rate,fish
+q_f,0.18,mgN mgC-1,N-quota of fish,fish
+k_of,1,na,Reference physiological reaction rate for fish at 288 K,fish
+q_ff,0.18,mgN mgC-1,N-quota of fish feed,fish
+k_r_f,0.8,na,Fraction of reproduction energy fixed in eggs,fish
+u_mf,380,m3 cm-2 d - 1,fish maximum surface area-specific consumption,fish
+u_vf,4400,J g-1 wet W,Structure energy content of fish,fish
+r_p,0.01,d - 1,Respiration rate of phytoplankton,phyto
+e_up,0.05,na,Uptake associated excretion of phytoplankton,phyto
+g_pm,1.6,d - 1,Maximum phytoplankton growth rate,phyto
+q_pmin,0.1,mgN mgC-1,Minimum phytoplankton N:C ratio,phyto
+s_pmin,0.1,d - 1,Minimum phytoplankton sinking rate,phyto
+s_p,0.25,d - 1,Maximum phytoplankton sinking rate,phyto
+q_pmax,0.25,mgN mgC-1,Maximum phytoplankton N:C ratio,phyto
+q_poff,0.01,mgN mgC-1,Phytoplankton nitrogen uptake parameter,phyto
+k_op,1,na,Reference reaction rate for phytoplankton at 292 K,phyto
+t_ap,6800,K,Arrhenius temperature of phytoplankton,phyto
+t_alp,27300,K,Arrhenius temperature at lower boundary for phytoplankton,phyto
+t_lp,286,K,Lower boundary of tolerance range for phytoplankton,phyto
+t_ahp,80300,K,Arrhenius temperature at upper boundary for phytoplankton,phyto
+t_op,292,K,Reference temperature,phyto
+t_hp,298,K,Upper boundary of tolerance range for phytoplankton,phyto
+x_i,7,mol phot m-2 d-1,Half-saturation light level,phyto
+i_0,340,Ã×mol?m - 2?s - 1,Reference irradiance for seaweed photosynthesis,phyto
+k_i,1,na,,phyto
+u_nhmp,0.55,d - 1,Phytoplankton maximum uptake of NH4-N,phyto
+x_pnh,28,mgN m-3,Half-saturation NH4-N for phytoplankton uptake,phyto
+u_nomp,0.45,d - 1,Phytoplankton maximum uptake of NO3-N,phyto
+x_pno,5,mgN m-3,Half-saturation NH4-N for phytoplankton uptake,phyto
+e_up,0.05,na,Uptake associated excretion of phytoplankton,phyto
+d_z,0.25,na,Zooplankton faeces,zoo
+g_zm,0.1,d-1,Maximum growth rate of zooplankton,zoo
+r_zmin,0.3,na,Minimum reserves for zooplankton growth,zoo
+s_z,0.05,d-1,Zooplankton mortality,zoo
+u_czm,1,d-1,Maximum uptake rate of phytoplankton by zooplankton,zoo
+x_pz,150,mgC m-3,Half-saturation uptake of phytoplankton by zooplankton,zoo
+q_z,0.18,mgN mgC-1,N-quota of zooplankton,zoo
+u_poczm,0.5,d-1,Maximum uptake rate of POC by zooplankton,zoo
+x_pocz,300,mgC m-3,Half-saturation uptake of POC by zooplankton,zoo
+r_z,0.02,d-1,Respiration rate of zooplankton,zoo
+t_a_z,6200,K,Arrhenius temperature of zooplankton,zoo
+t_al_z,5100,K,Arrhenius temperature at lower boundary for zooplankton,zoo
+t_l_z,288,K,Lower boundary of tolerance range for zooplankton,zoo
+t_ah_z,47000,K,Arrhenius temperature at upper boundary for zooplankton,zoo
+t_h_z,302,K,Upper boundary of tolerance range for zooplankton,zoo
+k_oz,1,na,Reference reaction rate for zooplankton at 291 K,zoo
+t_oz,291,K,Reference temperature,zoo
+e_uz,0.15,na,Uptake associated excretion of zooplankton,zoo
+t_a_a,8400,K,Arrhenius temperature of seaweed,seaweed
+t_al_a,5000,K,Arrhenius temperature at lower boundary for seaweed,seaweed
+t_l_a,287,K,Lower boundary of tolerance range for seaweed,seaweed
+t_ah_a,19000,K,Arrhenius temperature at upper boundary for seaweed,seaweed
+t_h_a,296,K,Upper boundary of tolerance range for seaweed,seaweed
+k_oa,1,na,Reference reaction rate for seaweed at 286 K,seaweed
+t_oa,286,K,Reference temperature,seaweed
+g_am,0.2,d-1,Maximum seaweed growth rate,seaweed
+r_a,0.0002,d-1,Respiration rate of seaweed,seaweed
+e_ua,0.01,na,Uptake associated excretion of seaweed,seaweed
+q_amin,0.1,mgN mgC-1,Minimum seaweed N:C ratio,seaweed
+q_amax,0.2,mgN mgC-1,Maximum seaweed N:C ratio,seaweed
+q_aoff,0.03,mgN mgC-1,Seaweed nitrogen uptake parameter,seaweed
+u_nhma,0.04,d-1,Seaweed maximum uptake of ammonia N,seaweed
+x_anh,28,mgN m-3,Half-saturation ammonia-N for seaweed uptake,seaweed
+u_noma,0.04,d-1,Seaweed maximum uptake of nitrate N,seaweed
+x_ano,5,mgN m-3,Half-saturation nitrate-N for seaweed uptake,seaweed
+k_sr,0.01,d - 1,Nitrogen and carbon release rate,environment
+k_db,0.001,d - 1,Sediment N and C bury rate,environment
+q_o,0.18,mgN mgC-1,N-quota of particulate detrital organics,environment
+y_0,0.01,d - 1,Resuspension coefficient of sediment organic matters,environment
+p_0,0.05,d - 1,Water-column organic settling rate,environment
+r_don,0.1,na,DON fraction of phytoplankton/seaweed excretion,environment
+k_or,0.022,d - 1,Water-column DON remineralisation rate,environment
+k_nit_20,0.05,d - 1,Water-column nitrification rate at 20 ¡æ,environment
+kt_nit,1.07,na,temperature coefficient for nitrification,environment
+x_nh,250,mgN m-3,half saturation constant for ammonium cons,environment
+poro,1,na,volumetric porosity,environment
+t_k_c_nit,276,K,critical temperature for nitrification,environment
+x_do,1,na,half saturation constant for oxygen inhib,environment
+k_denit_20,0.01,d - 1,Water-column denitrification rate,environment
+kt_denit,1.12,na,temperature coefficient for denitrification,environment
+x_no,500,mgN m-3,half saturation constant for nitrate cons,environment
+t_k_c_den,275,K,critical temperature for denitrification,environment
+do,7,na,,environment
